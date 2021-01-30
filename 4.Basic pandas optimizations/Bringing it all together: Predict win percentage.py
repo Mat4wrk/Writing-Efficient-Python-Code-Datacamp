@@ -1,5 +1,5 @@
-"""Use a for loop and .itertuples() to predict the win percentage for each row of baseball_df with the predict_win_perc() function. 
-Save each row's predicted win percentage as win_perc_pred and append each to the win_perc_preds_loop list."""
+# --Use a for loop and .itertuples() to predict the win percentage for each row of baseball_df with the predict_win_perc() function. 
+# Save each row's predicted win percentage as win_perc_pred and append each to the win_perc_preds_loop list.--
 win_perc_preds_loop = []
 
 # Use a loop and .itertuples() to collect each row's predicted win percentage
