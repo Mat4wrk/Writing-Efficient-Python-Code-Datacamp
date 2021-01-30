@@ -10,13 +10,13 @@ for row in baseball_df.itertuples():
     win_perc_preds_loop.append(win_perc_pred)
     
     
-"""Apply predict_win_perc() to each row of the baseball_df DataFrame using a lambda function. Save the predicted win percentage as win_perc_preds_apply."""
+# --Apply predict_win_perc() to each row of the baseball_df DataFrame using a lambda function. Save the predicted win percentage as win_perc_preds_apply.--
 # Apply predict_win_perc to each row of the DataFrame
 win_perc_preds_apply = baseball_df.apply(lambda row: predict_win_perc(row['RS'], row['RA']), axis=1)
 
 
-"""Calculate the predicted win percentages by passing the underlying 'RS' and 'RA' arrays from baseball_df into predict_win_perc(). 
-Save these predictions as win_perc_preds_np."""
+# --Calculate the predicted win percentages by passing the underlying 'RS' and 'RA' arrays from baseball_df into predict_win_perc(). 
+# Save these predictions as win_perc_preds_np.--
 # Calculate the win percentage predictions using NumPy arrays
 win_perc_preds_np = predict_win_perc(baseball_df['RS'].values, baseball_df['RA'].values)
 baseball_df['WP_preds'] = win_perc_preds_np
