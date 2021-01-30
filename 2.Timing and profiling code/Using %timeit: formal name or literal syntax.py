@@ -1,5 +1,5 @@
-"""Create an empty list called formal_list using the formal name (list()).
-Create an empty list called literal_list using the literal syntax ([])."""
+# --Create an empty list called formal_list using the formal name (list()).
+# Create an empty list called literal_list using the literal syntax ([]).--
 # Create a list using the formal name
 formal_list = list()
 print(formal_list)
