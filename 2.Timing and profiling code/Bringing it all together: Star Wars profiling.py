@@ -1,5 +1,5 @@
-"""Use the get_publisher_heroes() function and the get_publisher_heroes_np() function to collect heroes from the Star Wars universe. 
-The desired_publisher for Star Wars is 'George Lucas'."""
+# --Use the get_publisher_heroes() function and the get_publisher_heroes_np() function to collect heroes from the Star Wars universe. 
+# The desired_publisher for Star Wars is 'George Lucas'.--
 # Use get_publisher_heroes() to gather Star Wars heroes
 star_wars_heroes = get_publisher_heroes(heroes, publishers, 'George Lucas')
 
